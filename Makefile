@@ -8,7 +8,7 @@ $(LATEXPDFS): %.pdf: %.tex
 	pdflatex -interaction nonstopmode $(patsubst %.pdf,%.tex,$@)
 
 clean:
-	rm *.aux *.log || true
+	rm $(TARGET).aux $(TARGET).log $(TARGET).snm $(TARGET).nav $(TARGET).toc $(TARGET).vrb $(TARGET).out || true
 
 veryclean: clean
 	rm $(TARGET).pdf
