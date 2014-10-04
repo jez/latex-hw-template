@@ -6,13 +6,15 @@
 \newcommand{\myclass}{12-345}
 \newcommand{\mylecture}{0}
 \newcommand{\mysection}{Z}
+
+% Prefix for numedquestion's
+\newcommand{\questiontype}{Question}
+
 % Use this if your "written" questions are all under one section
 % For example, if the homework handout has Section 5: Written Questions
 % and all questions are 5.1, 5.2, 5.3, etc. set this to 5
 % Use for 0 no prefix. Redefine as needed per-question.
 \newcommand{\writtensection}{0}
-
-\newcommand{\questiontype}{Question}
 
 \usepackage{amsmath, amsfonts, amsthm, amssymb}  % Some math symbols
 \usepackage{enumerate}
@@ -167,6 +169,25 @@
     \item ???
     \item Profit!
   \end{alphaparts}
+\end{numedquestion}
+
+\begin{numedquestion}
+  Using the \texttt{description} environment is a great way to typeset induction proofs!
+  \begin{description}
+    \item[Base Case:]
+      Here I have my base case.
+      This is usually about 1-2 lines of text that is not entirely difficult to come up with.
+      That doesn't mean it's not important though!
+    \item[Induction Hypothesis:]
+      Assume cool things to make proof work. Look, math:
+      \[a^2 + b^2 = c^2\]
+    \item[Induction Step:]
+      Prove all the things.
+      When in doubt, write in Latin, because things written in Latin sound more true.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor risus in dapibus aliquam. Donec at euismod dui. In libero turpis, blandit quis vestibulum ac, rutrum sit amet est. Suspendisse nec lacus vel dui lobortis lacinia at sit amet risus. Fusce dui ex, imperdiet nec finibus ut, bibendum a lacus.
+  \end{description}
+
+  Therefore, we have proven the claim by induction on in the \texttt{description} environment.
 \end{numedquestion}
 
 
