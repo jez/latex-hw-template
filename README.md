@@ -1,5 +1,7 @@
 # LaTeX Homework Template
 
+[http://blog.zimmerman.io/2014/10/04/a-latex-homework-template/](http://blog.zimmerman.io/2014/10/04/a-latex-homework-template/)
+
 ## What
 This is just a LaTeX file that is good for homeworks where the questions are numbered or given a particular name. It's adopted from templates used by Adam Blank and Shyam Raghavan.
 
