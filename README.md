@@ -22,7 +22,7 @@ to update the template.
 
 ## Usage
 
-See the [hw-template.tex](hw-template.tex) for an exhaustive list of usage examples.
+See the [hw-template.tex](hw-template.tex) for an exhaustive list of usage examples. There are also comments explaining features for which there are no examples given.
 
 The result is the following:
 

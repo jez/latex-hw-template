@@ -6,6 +6,11 @@
 \newcommand{\myclass}{12-345}
 \newcommand{\mylecture}{0}
 \newcommand{\mysection}{Z}
+% Use this if your "written" questions are all under one section
+% For example, if the homework handout has Section 5: Written Questions
+% and all questions are 5.1, 5.2, 5.3, etc. set this to 5
+% Use for 0 no prefix. Redefine as needed per-question.
+\newcommand{\writtensection}{0}
 
 \newcommand{\questiontype}{Question}
 
@@ -53,7 +58,14 @@
 \newenvironment{numedquestion}[0]{%
 	\stepcounter{questionCounter}%
     \vspace{.2in}%
+        \ifx\writtensection\undefined
         \noindent{\bf \questiontype \; \arabic{questionCounter}. }%
+        \else
+          \if\writtensection0
+          \noindent{\bf \questiontype \; \arabic{questionCounter}. }%
+          \else
+          \noindent{\bf \questiontype \; \writtensection.\arabic{questionCounter} }%
+        \fi
     \vspace{0.3em} \hrule \vspace{.1in}%
 }{}
 
