@@ -49,11 +49,11 @@
 \newcounter{questionCounter}
 \newcounter{partCounter}[questionCounter]
 
-\newenvironment{namedquestion}[2][\arabic{questionCounter}]{%
+\newenvironment{namedquestion}[1][\arabic{questionCounter}]{%
     \addtocounter{questionCounter}{1}%
     \setcounter{partCounter}{0}%
     \vspace{.2in}%
-        \noindent{\bf #2}%
+        \noindent{\bf #1}%
     \vspace{0.3em} \hrule \vspace{.1in}%
 }{}
 
@@ -94,7 +94,6 @@
 \header{\textbf{\myclass\ \mylecture\mysection}}%
 {\textbf{\myname\ (\myemail)}}%
 {\textbf{\myhwtype\ \myhwnum}}
-%%% end hw-packages-and-macros.tex
 
 \begin{document}
 \thispagestyle{plain}
