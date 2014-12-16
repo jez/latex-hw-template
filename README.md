@@ -2,6 +2,13 @@
 
 [http://blog.zimmerman.io/2014/10/04/a-latex-homework-template/](http://blog.zimmerman.io/2014/10/04/a-latex-homework-template/)
 
+## New!
+
+I turned most of this project [into a LaTeX `homework`
+class](https://github.com/Z1MM32M4N/latex-homework-class), so you can access
+all the convenient methods defined here, but only having to include a single
+line of code.
+
 ## What
 This is just a LaTeX file that is good for homeworks where the questions are numbered or given a particular name. It's adopted from templates used by Adam Blank and Shyam Raghavan.
 
