@@ -5,7 +5,7 @@
 ## New!
 
 I turned most of this project [into a LaTeX `homework`
-class](https://github.com/Z1MM32M4N/latex-homework-class), so you can access
+class](https://github.com/jez/latex-homework-class), so you can access
 all the convenient methods defined here, but only having to include a single
 line of code.
 
